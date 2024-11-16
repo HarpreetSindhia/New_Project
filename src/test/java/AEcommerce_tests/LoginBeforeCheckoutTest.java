@@ -72,3 +72,4 @@ public class LoginBeforeCheckoutTest extends BaseTest {
 
 	//List<String> targetProducts = Arrays.asList("Premium Polo T-Shirts", "GRAPHIC DESIGN MEN T SHIRT - BLUE");
 }
+//Add new comments
