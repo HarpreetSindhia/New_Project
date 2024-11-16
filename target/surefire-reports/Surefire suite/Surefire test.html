@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 17:39:16 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>502 seconds (502615 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AEcommerce_tests.VerifyScrollFunctionTest.scrollUpWithoutArrow()'><b>scrollUpWithoutArrow</b><br>Test class: AEcommerce_tests.VerifyScrollFunctionTest</td>
+<td></td>
+<td>0</td>
+<td>AEcommerce_tests.VerifyScrollFunctionTest@50eac852</td></tr>
+<tr>
+<td title='AEcommerce_tests.ViewCategory_BrandProductsTest.viewCategoryProducts()'><b>viewCategoryProducts</b><br>Test class: AEcommerce_tests.ViewCategory_BrandProductsTest</td>
+<td></td>
+<td>8</td>
+<td>AEcommerce_tests.ViewCategory_BrandProductsTest@16ec5519</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginEmail_ProductCheckoutTest.loginWhileCheckout()'><b>loginWhileCheckout</b><br>Test class: AEcommerce_tests.LoginEmail_ProductCheckoutTest<br>Parameters: {expMonth=11, password=sindhiaAmo55, expectedbillingAddress=Your billing address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardNum=778899224446, targetProducts=[Pure Cotton Neon Green Tshirt, Regular Fit Straight Jeans, Green Side Placket Detail T-Shirt], expectedDeliveryAddress=Your delivery address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardCVC=712, cardHolderName=Amandeep Sindhia, expYear=2030, userName=Amandeep Sindhia, email=imamansindhia@gmail.com}</td>
+<td></td>
+<td>40</td>
+<td>AEcommerce_tests.LoginEmail_ProductCheckoutTest@2ef3eef9</td></tr>
+<tr>
+<td title='AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest.updateQuantity()'><b>updateQuantity</b><br>Test class: AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest</td>
+<td></td>
+<td>10</td>
+<td>AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@291ae</td></tr>
+<tr>
+<td title='AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest.addProductReview()'><b>addProductReview</b><br>Test class: AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest<br>Parameters: {name=Harpreet Sindhia, review=Good Product liked it so far, email=harrysindhia@gmail.com, targetProduct=Winter Top}</td>
+<td></td>
+<td>7</td>
+<td>AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@708f5957</td></tr>
+<tr>
+<td title='AEcommerce_tests.ContactUsForm_SubscriptionTest.contactUs()'><b>contactUs</b><br>Test class: AEcommerce_tests.ContactUsForm_SubscriptionTest<br>Parameters: {uploadFile=C:\Users\Dell\Pictures\Screenshots\ErrorLogout.png, user=Harpreet Sindhia, subject=Logout not working, email=harrysindhia@gmail.com, textArea=Please fix the logout button, please fix the same asap}</td>
+<td></td>
+<td>8</td>
+<td>AEcommerce_tests.ContactUsForm_SubscriptionTest@68999068</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginEmail_ProductCheckoutTest.loginCorrect()'><b>loginCorrect</b><br>Test class: AEcommerce_tests.LoginEmail_ProductCheckoutTest<br>Parameters: {expMonth=12, password=sindhiaYuv55, expectedbillingAddress=Your billing address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardNum=778899224446, targetProducts=[Winter Top, Soft Stretch Jeans, Grunt Blue Slim Fit Jeans], expectedDeliveryAddress=Your delivery address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardCVC=412, cardHolderName=Yuvaan Sindhia, expYear=2030, userName=Yuvaan Sindhia, email=yuvsindhia@gmail.com}</td>
+<td></td>
+<td>18</td>
+<td>AEcommerce_tests.LoginEmail_ProductCheckoutTest@2ef3eef9</td></tr>
+<tr>
+<td title='AEcommerce_tests.VerifyScrollFunctionTest.scrollUpArrow()'><b>scrollUpArrow</b><br>Test class: AEcommerce_tests.VerifyScrollFunctionTest</td>
+<td></td>
+<td>5</td>
+<td>AEcommerce_tests.VerifyScrollFunctionTest@50eac852</td></tr>
+<tr>
+<td title='AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest.removeProduct()'><b>removeProduct</b><br>Test class: AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest<br>Parameters: {searchProduct=saree, password=sindhiaHarry55, targetProducts=[Sleeveless Unicorn Patch Gown - Pink, Blue Cotton Indie Mickey Dress, Premium Polo T-Shirts], email=harrysindhia@gmail.com}</td>
+<td></td>
+<td>20</td>
+<td>AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@61df66b6</td></tr>
+<tr>
+<td title='AEcommerce_tests.ContactUsForm_SubscriptionTest.verifySubscription()'><b>verifySubscription</b><br>Test class: AEcommerce_tests.ContactUsForm_SubscriptionTest<br>Parameters: {uploadFile=C:\Users\Dell\Pictures\Screenshots\ErrorLogout.png, user=Harpreet Sindhia, subject=Logout not working, email=harrysindhia@gmail.com, textArea=Please fix the logout button, please fix the same asap}</td>
+<td></td>
+<td>0</td>
+<td>AEcommerce_tests.ContactUsForm_SubscriptionTest@68999068</td></tr>
+<tr>
+<td title='AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest.verifyProductDetail()'><b>verifyProductDetail</b><br>Test class: AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest</td>
+<td></td>
+<td>10</td>
+<td>AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@291ae</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginEmail_ProductCheckoutTest.loginWhileCheckout()'><b>loginWhileCheckout</b><br>Test class: AEcommerce_tests.LoginEmail_ProductCheckoutTest<br>Parameters: {expMonth=12, password=sindhiaYuv55, expectedbillingAddress=Your billing address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardNum=778899224446, targetProducts=[Winter Top, Soft Stretch Jeans, Grunt Blue Slim Fit Jeans], expectedDeliveryAddress=Your delivery address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardCVC=412, cardHolderName=Yuvaan Sindhia, expYear=2030, userName=Yuvaan Sindhia, email=yuvsindhia@gmail.com}</td>
+<td></td>
+<td>56</td>
+<td>AEcommerce_tests.LoginEmail_ProductCheckoutTest@2ef3eef9</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginIncorrectEmailPasswordTest.loginIncorrect()'><b>loginIncorrect</b><br>Test class: AEcommerce_tests.LoginIncorrectEmailPasswordTest<br>Parameters: {uEmail=harrysindhia@gmail.com, password=sindhiaAman55, uName=Abir Sindhia, email=harrysindhia@gmail.com}</td>
+<td></td>
+<td>15</td>
+<td>AEcommerce_tests.LoginIncorrectEmailPasswordTest@243c4f91</td></tr>
+<tr>
+<td title='Tests.SubsriptionTest.verifySubscription()'><b>verifySubscription</b><br>Test class: Tests.SubsriptionTest</td>
+<td></td>
+<td>21</td>
+<td>Tests.SubsriptionTest@1ea9f6af</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginIncorrectEmailPasswordTest.registerExistingEmail()'><b>registerExistingEmail</b><br>Test class: AEcommerce_tests.LoginIncorrectEmailPasswordTest<br>Parameters: {uEmail=harrysindhia@gmail.com, password=sindhiaAman55, uName=Abir Sindhia, email=harrysindhia@gmail.com}</td>
+<td></td>
+<td>7</td>
+<td>AEcommerce_tests.LoginIncorrectEmailPasswordTest@243c4f91</td></tr>
+<tr>
+<td title='AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest.productCart()'><b>productCart</b><br>Test class: AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest<br>Parameters: {targetProducts=[Stylish Dress, Long Maxi Tulle Fancy Dress Up Outfits -Pink]}</td>
+<td></td>
+<td>9</td>
+<td>AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@291ae</td></tr>
+<tr>
+<td title='AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest.addRecommendedItems()'><b>addRecommendedItems</b><br>Test class: AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest<br>Parameters: {name=Harpreet Sindhia, review=Good Product liked it so far, email=harrysindhia@gmail.com, targetProduct=Winter Top}</td>
+<td></td>
+<td>4</td>
+<td>AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@708f5957</td></tr>
+<tr>
+<td title='Tests.LoginCorrectEmailPasswordTest.loginCorrect()'><b>loginCorrect</b><br>Test class: Tests.LoginCorrectEmailPasswordTest</td>
+<td></td>
+<td>12</td>
+<td>Tests.LoginCorrectEmailPasswordTest@2f7298b</td></tr>
+<tr>
+<td title='AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest.searchProduct()'><b>searchProduct</b><br>Test class: AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest<br>Parameters: {searchProduct=saree, password=sindhiaHarry55, targetProducts=[Sleeveless Unicorn Patch Gown - Pink, Blue Cotton Indie Mickey Dress, Premium Polo T-Shirts], email=harrysindhia@gmail.com}</td>
+<td></td>
+<td>39</td>
+<td>AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@61df66b6</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginEmail_ProductCheckoutTest.loginCorrect()'><b>loginCorrect</b><br>Test class: AEcommerce_tests.LoginEmail_ProductCheckoutTest<br>Parameters: {expMonth=11, password=sindhiaAmo55, expectedbillingAddress=Your billing address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardNum=778899224446, targetProducts=[Pure Cotton Neon Green Tshirt, Regular Fit Straight Jeans, Green Side Placket Detail T-Shirt], expectedDeliveryAddress=Your delivery address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardCVC=712, cardHolderName=Amandeep Sindhia, expYear=2030, userName=Amandeep Sindhia, email=imamansindhia@gmail.com}</td>
+<td></td>
+<td>7</td>
+<td>AEcommerce_tests.LoginEmail_ProductCheckoutTest@2ef3eef9</td></tr>
+<tr>
+<td title='Tests.RemoveProductsFromCartTest.removeProduct()'><b>removeProduct</b><br>Test class: Tests.RemoveProductsFromCartTest</td>
+<td></td>
+<td>26</td>
+<td>Tests.RemoveProductsFromCartTest@188715b5</td></tr>
+<tr>
+<td title='AEcommerce_tests.ViewCategory_BrandProductsTest.viewBrandProducts()'><b>viewBrandProducts</b><br>Test class: AEcommerce_tests.ViewCategory_BrandProductsTest</td>
+<td></td>
+<td>8</td>
+<td>AEcommerce_tests.ViewCategory_BrandProductsTest@16ec5519</td></tr>
+<tr>
+<td title='AEcommerce_tests.LoginBeforeCheckoutTest.productCart()'><b>productCart</b><br>Test class: AEcommerce_tests.LoginBeforeCheckoutTest<br>Parameters: {expMonth=02, password=sindhiaNav55, cardNum=957866441, targetProducts=[Premium Polo T-Shirts, GRAPHIC DESIGN MEN T SHIRT - BLUE], cardCVC=512, cardHolderName=Navdeep Sindhia, expYear=2028, email=navsindhia@gmail.com}</td>
+<td></td>
+<td>49</td>
+<td>AEcommerce_tests.LoginBeforeCheckoutTest@7722c3c3</td></tr>
+</table><p>
+</body>
+</html>

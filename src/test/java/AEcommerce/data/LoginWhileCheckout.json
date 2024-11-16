@@ -1,0 +1,51 @@
+[
+    {
+        "targetProducts" : ["Pure Cotton Neon Green Tshirt" , "Regular Fit Straight Jeans" , "Green Side Placket Detail T-Shirt"],
+
+        "email" : "imamansindhia@gmail.com",
+
+        "password" : "sindhiaAmo55",
+
+        "userName" : "Amandeep Sindhia",
+
+        "expectedDeliveryAddress" : "Your delivery address\nMrs. Amandeep Sindhia\nAmazon\n1212 Silicon Valley\nNew Vales Toronto 56002\nCanada\n9915942850",
+
+        "expectedbillingAddress" : "Your billing address\nMrs. Amandeep Sindhia\nAmazon\n1212 Silicon Valley\nNew Vales Toronto 56002\nCanada\n9915942850",
+
+        "cardHolderName" : "Amandeep Sindhia",
+
+        "cardNum" : "778899224446",
+
+        "cardCVC" : "712",
+
+        "expMonth" : "11",
+        
+        "expYear" : "2030"
+
+    },
+    
+    {
+        "targetProducts" : ["Winter Top","Soft Stretch Jeans","Grunt Blue Slim Fit Jeans"],
+        
+        "email":"yuvsindhia@gmail.com",
+
+        "password":"sindhiaYuv55",
+
+        "userName":"Yuvaan Sindhia",
+
+        "expectedDeliveryAddress":"Your delivery address\nMr. Yuvaan Sindhia\nPorsche\n223, Kingfisher Avenue\nTownsVile , Brisbane\nBrisbane Florida 7894003\nAustralia\n9875495822",
+
+        "expectedbillingAddress":"Your billing address\nMr. Yuvaan Sindhia\nPorsche\n223, Kingfisher Avenue\nTownsVile , Brisbane\nBrisbane Florida 7894003\nAustralia\n9875495822",
+
+        "cardHolderName":"Yuvaan Sindhia",
+
+        "cardNum":"778899224446",
+
+        "cardCVC":"412",
+
+        "expMonth":"12",
+
+        "expYear":"2030"
+
+    }
+]

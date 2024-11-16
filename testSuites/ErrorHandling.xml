@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  parallel = "tests" name="Suite">
+	<groups>
+		<run>
+			<include name="Error Handling"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AEcommerce_tests.LoginEmail_ProductCheckoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="AddRecommendedItems_ReviewProducts">
+	<classes>
+		<class name="AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest"></class>
+	</classes>
+  </test>
+  
+  <test name="LoginBeforeCheckout">
+	<classes>
+		<class name="AEcommerce_tests.LoginBeforeCheckoutTest"></class>
+	</classes>
+  </test>
+  
+  <test name="SearchProduct_VerifyCartAfterLogin">
+	<classes>
+		<class name="AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest"></class>
+	</classes>
+  </test>
+  
+  <test name="ScrollFunction">
+	<classes>
+		<class name="AEcommerce_tests.VerifyScrollFunctionTest"></class>
+	</classes>
+  </test>
+  
+  <test name="ProductDetailsPage">
+	<classes>
+		<class name="AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest"></class>
+	</classes>
+  </test>
+  
+  <test name="ProductCategory_Brand">
+	<classes>
+		<class name="AEcommerce_tests.ViewCategory_BrandProductsTest"></class>
+	</classes>
+  </test>
+  
+  <test name="ContactUS">
+	<classes>
+		<class name="AEcommerce_tests.ContactUsForm_SubscriptionTest"></class>
+	</classes>
+  </test>
+  
+  <test name="LoginIncorrect">
+	<classes>
+		<class name="AEcommerce_tests.LoginIncorrectEmailPasswordTest"></class>
+	</classes>
+  </test>
+</suite> <!-- Suite -->

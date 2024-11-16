@@ -1,0 +1,12 @@
+[
+    {
+        "email" : "navsindhia@gmail.com",
+        "password" : "sindhiaNav55",
+        "targetProducts" : ["Premium Polo T-Shirts" , "GRAPHIC DESIGN MEN T SHIRT - BLUE"],
+        "cardHolderName" : "Navdeep Sindhia",
+        "cardNum" : "957866441",
+        "cardCVC" : "512",
+        "expMonth" : "02",
+        "expYear" : "2028"
+    }
+]
